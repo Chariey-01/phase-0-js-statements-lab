@@ -13,7 +13,7 @@ if (temperature > 80) {
 if (timeOfDay === "evening" || timeOfDay === "night") {
   console.log("Lights on");
 } else {
-  console.log("Lights of");
+  console.log("Lights off");
 }
 
 while (soilMoisture < 40) {
